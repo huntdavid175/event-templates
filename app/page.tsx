@@ -25,7 +25,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Heart, Search, Eye } from "lucide-react";
+import { Heart, Eye } from "lucide-react";
 
 // Mock data for event templates
 const templates = [
@@ -201,8 +201,8 @@ export default function Home() {
         Choose Your Event Template
       </h1>
       <p className="text-blue-600 mb-6">
-        Find the perfect template for your special day, whether it's a wedding
-        or another celebration.
+        Find the perfect template for your special day, whether it&apos;s a
+        wedding or another celebration.
       </p>
 
       <div className="flex flex-col md:flex-row gap-4 mb-6">
