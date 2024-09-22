@@ -1,10 +1,5 @@
 import { Button } from "@/components/ui/button";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "../../components/ui/accordion";
+
 import Image from "next/image";
 import React from "react";
 
