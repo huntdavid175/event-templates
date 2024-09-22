@@ -1,18 +1,20 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 
 const SamplePage = () => {
   return (
     <div>
-      <div className="bg-black pb-[95vh] text-white relative">
+      <div className="bg-black pb-[100vh] text-white relative">
         <Image
           src={
-            "https://micahandcody.com/wp-content/uploads/2024/05/Exterior-Main.jpg"
+            "https://uploads-ssl.webflow.com/62e945e61af79e625a6940f0/634453bc81acc8f4396b1c3f_zachmel2.jpg"
           }
           fill
+          className="object-cover"
           alt="image"
         />
-        <div className="absolute top-0 left-0 right-0 w-full h-full bg-black opacity-50 z-40" />
+        <div className="absolute top-0 left-0 right-0 w-full h-full bg-black opacity-30 z-40" />
         {/* header section  */}
         <div className="absolute top-0 left-0 right-0 w-full h-full z-50">
           {/* navbar  */}
@@ -35,12 +37,16 @@ const SamplePage = () => {
             </div>
           </div>
 
-          <div className="max-w-2xl mx-auto text-center mt-[250px]">
-            <p className="text-xl font-semibold uppercase">Save Our Date</p>
-            <p className="text-7xl font-bold">We are Getting Married!</p>
-            <p className="text-xl font-semibold uppercase">
+          <div className="max-w-2xl mx-auto text-center mt-[350px]">
+            <p className="text-5xl font-extralight uppercase">ZAC & MEL</p>
+            <p className="text-sm font-light uppercase">
               Saturday, September 21 2024
             </p>
+            <div className="mt-8">
+              <Button className="bg-[#cda26f] font-semibold ">
+                <p>RSVP NOW BY AUGUST 1</p>
+              </Button>
+            </div>
           </div>
         </div>
       </div>
