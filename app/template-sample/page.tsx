@@ -44,8 +44,10 @@ const SamplePage = () => {
           </div> */}
 
           <div className="max-w-2xl mx-auto text-center mt-[350px]">
-            <p className="text-5xl font-extralight uppercase">ZAC & MEL</p>
-            <p className="text-md text-gray-400 font-light uppercase mt-8">
+            <p className="text-5xl font-extralight font-tanker uppercase">
+              ZAC & MEL
+            </p>
+            <p className="text-md text-gray-400 font-tanker font-light uppercase mt-8">
               AUGUST 1, 2024
             </p>
             <div className="mt-8">
@@ -89,7 +91,7 @@ const SamplePage = () => {
                     ></path>
                   </svg>
                 </div>
-                <p className="text-2xl lg:text-5xl font-bold uppercase text-green-900">
+                <p className="text-2xl lg:text-5xl font-tanker font-bold uppercase text-[#093308]">
                   WHEN
                 </p>
               </div>
@@ -119,7 +121,7 @@ const SamplePage = () => {
                     ></path>
                   </svg>
                 </div>
-                <p className="text-2xl lg:text-5xl font-bold uppercase text-green-900">
+                <p className="text-2xl lg:text-5xl font-tanker font-bold uppercase text-[#093308]">
                   LOCATION
                 </p>
               </div>
@@ -154,7 +156,7 @@ const SamplePage = () => {
                     ></path>
                   </svg>
                 </div>
-                <p className="text-2xl lg:text-5xl font-bold uppercase text-green-900">
+                <p className="text-2xl lg:text-5xl font-tanker font-bold uppercase text-[#093308]">
                   SCHEDULE
                 </p>
               </div>
@@ -176,7 +178,7 @@ const SamplePage = () => {
         {/* FAQs  */}
         <div className="w-full mt-12 mb-12">
           <div className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8">
-            <h3 className="text-5xl text-green-900 text-center font-bold mb-8">
+            <h3 className="text-3xl lg:text-5xl text-[#093308] text-center font-tanker font-bold mb-8">
               Get In Touch!
             </h3>
             <p className="max-w-3xl mx-auto text-center text-lg">
@@ -186,34 +188,36 @@ const SamplePage = () => {
 
             <div className="flex flex-col lg:flex-row gap-y-16 lg:gap-y-0 lg:justify-between lg:gap-x-8 mt-16">
               <div className="flex flex-col items-center flex-1 justify-center space-y-3">
-                <p className="text-5xl text-green-900 font-bold">Zana</p>
+                <p className="text-2xl lg:text-5xl text-green-900 font-bold font-tanker">
+                  Zana
+                </p>
                 <div className="flex space-x-3 items-center">
-                  <Mail />
-                  <p className="text-xl text-[#8c3d20] font-semibold underline">
+                  <Mail className="text-[#093308]" />
+                  <p className="text-base lg:text-xl text-[#8c3d20] font-semibold underline">
                     zana.pavlovic92@gmail.com
                   </p>
                 </div>
                 <div className="flex space-x-3 items-center">
-                  <Phone />
-                  <p className="text-xl text-[#8c3d20] font-semibold underline">
+                  <Phone className="text-[#093308]" />
+                  <p className="text-base lg:text-xl text-[#8c3d20] font-semibold underline">
                     (720)448-3172
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center flex-1 justify-center space-y-3">
-                <p className="text-5xl text-green-900 text-center font-bold">
+                <p className="text-2xl lg:text-5xl text-green-900 text-center font-tanker font-bold">
                   JERROD
                 </p>
                 <div className="flex space-x-3 items-center">
-                  <Mail />
-                  <p className="text-xl text-[#8c3d20] font-semibold underline">
+                  <Mail className="text-[#093308]" />
+                  <p className="text-base lg:text-xl text-[#8c3d20] font-semibold underline">
                     jkpopham@gmail.com
                   </p>
                 </div>
 
                 <div className="flex space-x-3 items-center">
-                  <Phone />
-                  <p className="text-xl text-[#8c3d20] font-semibold underline">
+                  <Phone className="text-[#093308]" />
+                  <p className="text-base lg:text-xl text-[#8c3d20] font-semibold underline">
                     (303)448-3172
                   </p>
                 </div>
