@@ -122,7 +122,7 @@ const SamplePage = () => {
                 </p>
               </div>
               <div className="space-y-8">
-                <p>The Popham Family's Property near Fairplay, Colorado</p>
+                <p>The Popham Family&apos;s Property near Fairplay, Colorado</p>
                 <p>
                   2900 Highway 285 <br />
                   Fairplay, CO 80465
