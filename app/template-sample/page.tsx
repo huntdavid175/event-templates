@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Mail, Phone } from "lucide-react";
 
 import Image from "next/image";
 import React from "react";
@@ -58,7 +59,7 @@ const SamplePage = () => {
 
       {/* body section */}
 
-      <div className="w-full bg-white py-20 px-4">
+      <div className="w-full bg-[#fcfcfc] py-20 px-4">
         <div className="max-w-6xl mx-auto flex flex-col-reverse lg:flex-row lg:space-x-24  py-8 ">
           <div className="w-full h-[450px] lg:flex-1 lg:h-[800px] relative border border-white rounded-2xl">
             <Image
@@ -173,30 +174,49 @@ const SamplePage = () => {
           </div>
         </div>
         {/* FAQs  */}
-        <div className="w-full mb-12">
-          <div className="max-w-3xl  mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full mt-12 mb-12">
+          <div className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8">
             <h3 className="text-5xl text-green-900 text-center font-bold mb-8">
               Get In Touch!
             </h3>
-            <p className="text-center text-lg">
+            <p className="max-w-3xl mx-auto text-center text-lg">
               If you have any questions, comments, or concerns (or just want to
               get in touch!), then please do not hesitate to reach out.
             </p>
 
-            <div className="flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 lg:justify-between lg:gap-x-8">
-              <div>
-                <p className="text-5xl text-green-900 text-center font-bold">
-                  Zana
-                </p>
-                <p>zana.pavlovic92@gmail.com</p>
-                <p>(720)448-3172</p>
+            <div className="flex flex-col lg:flex-row gap-y-16 lg:gap-y-0 lg:justify-between lg:gap-x-8 mt-16">
+              <div className="flex flex-col items-center flex-1 justify-center space-y-3">
+                <p className="text-5xl text-green-900 font-bold">Zana</p>
+                <div className="flex space-x-3 items-center">
+                  <Mail />
+                  <p className="text-xl text-[#8c3d20] font-semibold underline">
+                    zana.pavlovic92@gmail.com
+                  </p>
+                </div>
+                <div className="flex space-x-3 items-center">
+                  <Phone />
+                  <p className="text-xl text-[#8c3d20] font-semibold underline">
+                    (720)448-3172
+                  </p>
+                </div>
               </div>
-              <div>
+              <div className="flex flex-col items-center flex-1 justify-center space-y-3">
                 <p className="text-5xl text-green-900 text-center font-bold">
-                  Zana
+                  JERROD
                 </p>
-                <p>zana.pavlovic92@gmail.com</p>
-                <p>(720)448-3172</p>
+                <div className="flex space-x-3 items-center">
+                  <Mail />
+                  <p className="text-xl text-[#8c3d20] font-semibold underline">
+                    jkpopham@gmail.com
+                  </p>
+                </div>
+
+                <div className="flex space-x-3 items-center">
+                  <Phone />
+                  <p className="text-xl text-[#8c3d20] font-semibold underline">
+                    (303)448-3172
+                  </p>
+                </div>
               </div>
             </div>
           </div>
