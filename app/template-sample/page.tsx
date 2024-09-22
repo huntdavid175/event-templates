@@ -95,7 +95,7 @@ const SamplePage = () => {
                   WHEN
                 </p>
               </div>
-              <div className="space-y-8">
+              <div className="space-y-8 text-[#222] font-bitter">
                 <p>August 1, 2024 at 4:30PM</p>
                 <p>
                   *Yes-we left this to the last minute. We know. We are sorry.
@@ -125,7 +125,7 @@ const SamplePage = () => {
                   LOCATION
                 </p>
               </div>
-              <div className="space-y-8">
+              <div className="space-y-8 text-[#222] font-bitter">
                 <p>The Popham Family&apos;s Property near Fairplay, Colorado</p>
                 <p>
                   2900 Highway 285 <br />
@@ -160,7 +160,7 @@ const SamplePage = () => {
                   SCHEDULE
                 </p>
               </div>
-              <div className="space-y-8">
+              <div className="space-y-8 text-[#222] font-bitter">
                 <p>Feel free to cime at any point past 2 PM</p>
                 <div>
                   <ul className="list-disc list-inside space-y-3">
@@ -181,7 +181,7 @@ const SamplePage = () => {
             <h3 className="text-3xl lg:text-5xl text-[#093308] text-center font-tanker font-bold mb-8">
               Get In Touch!
             </h3>
-            <p className="max-w-3xl mx-auto text-center text-lg">
+            <p className="max-w-3xl mx-auto text-center text-lg text-[#222] font-bitter">
               If you have any questions, comments, or concerns (or just want to
               get in touch!), then please do not hesitate to reach out.
             </p>
@@ -193,13 +193,13 @@ const SamplePage = () => {
                 </p>
                 <div className="flex space-x-3 items-center">
                   <Mail className="text-[#093308]" />
-                  <p className="text-base lg:text-xl text-[#8c3d20] font-semibold underline">
+                  <p className="text-base lg:text-xl text-[#8c3d20] font-semibold font-bitter underline">
                     zana.pavlovic92@gmail.com
                   </p>
                 </div>
                 <div className="flex space-x-3 items-center">
                   <Phone className="text-[#093308]" />
-                  <p className="text-base lg:text-xl text-[#8c3d20] font-semibold underline">
+                  <p className="text-base lg:text-xl text-[#8c3d20] font-semibold font-bitter underline">
                     (720)448-3172
                   </p>
                 </div>
@@ -210,14 +210,14 @@ const SamplePage = () => {
                 </p>
                 <div className="flex space-x-3 items-center">
                   <Mail className="text-[#093308]" />
-                  <p className="text-base lg:text-xl text-[#8c3d20] font-semibold underline">
+                  <p className="text-base lg:text-xl text-[#8c3d20] font-semibold font-bitter underline">
                     jkpopham@gmail.com
                   </p>
                 </div>
 
                 <div className="flex space-x-3 items-center">
                   <Phone className="text-[#093308]" />
-                  <p className="text-base lg:text-xl text-[#8c3d20] font-semibold underline">
+                  <p className="text-base lg:text-xl text-[#8c3d20] font-semibold font-bitter underline">
                     (303)448-3172
                   </p>
                 </div>

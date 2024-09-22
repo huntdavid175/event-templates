@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         tanker: ["var(--font-tanker)"],
+        bitter: ["var(--font-bitter)"],
       },
       colors: {
         background: "hsl(var(--background))",
