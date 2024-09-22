@@ -87,7 +87,7 @@ const SamplePage = () => {
                     ></path>
                   </svg>
                 </div>
-                <p className="text-4xl lg:text-5xl font-bold uppercase text-green-900">
+                <p className="text-2xl lg:text-5xl font-bold uppercase text-green-900">
                   WHEN
                 </p>
               </div>
@@ -117,7 +117,7 @@ const SamplePage = () => {
                     ></path>
                   </svg>
                 </div>
-                <p className="text-4xl lg:text-5xl font-bold uppercase text-green-900">
+                <p className="text-2xl lg:text-5xl font-bold uppercase text-green-900">
                   LOCATION
                 </p>
               </div>
@@ -137,7 +137,7 @@ const SamplePage = () => {
 
             {/* Schedule section */}
             <div className="mb-12">
-              <div className="flex flex-col lg:flex-row gap-y-4 lg:gap-y-0  lg:gap-x-8 mb-8">
+              <div className="flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 lg:gap-x-8 mb-8">
                 <div className="w-[3.5rem] h-auto text-[#cda26f]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -152,7 +152,7 @@ const SamplePage = () => {
                     ></path>
                   </svg>
                 </div>
-                <p className="text-4xl lg:text-5xl font-bold uppercase text-green-900">
+                <p className="text-2xl lg:text-5xl font-bold uppercase text-green-900">
                   SCHEDULE
                 </p>
               </div>
