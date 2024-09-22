@@ -1,4 +1,10 @@
 import { Button } from "@/components/ui/button";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "../../components/ui/accordion";
 import Image from "next/image";
 import React from "react";
 
@@ -18,7 +24,7 @@ const SamplePage = () => {
         {/* header section  */}
         <div className="absolute top-0 left-0 right-0 w-full h-full z-50">
           {/* navbar  */}
-          <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-8 z-50 ">
+          {/* <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-8 z-50 ">
             <div>
               <p>Mica x Cody</p>
             </div>
@@ -39,7 +45,7 @@ const SamplePage = () => {
                 RSVP BY 8/1
               </p>
             </div>
-          </div>
+          </div> */}
 
           <div className="max-w-2xl mx-auto text-center mt-[350px]">
             <p className="text-5xl font-extralight uppercase">ZAC & MEL</p>
@@ -57,7 +63,7 @@ const SamplePage = () => {
 
       {/* body section */}
 
-      <div className="w-full bg-[#f9f9e5] py-20 px-4">
+      <div className="w-full bg-white py-20 px-4">
         <div className="max-w-6xl mx-auto flex flex-col-reverse lg:flex-row lg:space-x-24  py-8 ">
           <div className="w-full h-[450px] lg:flex-1 lg:h-[800px] relative border border-white rounded-2xl">
             <Image
@@ -167,6 +173,35 @@ const SamplePage = () => {
                     <li>12::30AM - until your heart desires</li>
                   </ul>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* FAQs  */}
+        <div className="w-full mb-12">
+          <div className="max-w-3xl  mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 className="text-5xl text-green-900 text-center font-bold mb-8">
+              Get In Touch!
+            </h3>
+            <p className="text-center text-lg">
+              If you have any questions, comments, or concerns (or just want to
+              get in touch!), then please do not hesitate to reach out.
+            </p>
+
+            <div className="flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 lg:justify-between lg:gap-x-8">
+              <div>
+                <p className="text-5xl text-green-900 text-center font-bold">
+                  Zana
+                </p>
+                <p>zana.pavlovic92@gmail.com</p>
+                <p>(720)448-3172</p>
+              </div>
+              <div>
+                <p className="text-5xl text-green-900 text-center font-bold">
+                  Zana
+                </p>
+                <p>zana.pavlovic92@gmail.com</p>
+                <p>(720)448-3172</p>
               </div>
             </div>
           </div>
