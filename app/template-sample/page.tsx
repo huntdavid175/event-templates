@@ -8,15 +8,26 @@ const SamplePage = () => {
   return (
     <div>
       <div className="bg-black pb-[100vh] text-white relative ">
-        <Image
+        <video
+          autoPlay
+          loop
+          muted
+          className="w-full absolute inset-0 object-cover h-full"
+        >
+          <source
+            src="https://videos.pexels.com/video-files/8776126/8776126-uhd_2560_1440_25fps.mp4"
+            type="video/mp4"
+          />
+        </video>
+        {/* <Image
           src={
             "https://uploads-ssl.webflow.com/62e945e61af79e625a6940f0/634453bc81acc8f4396b1c3f_zachmel2.jpg"
           }
           fill
           className="object-cover"
           alt="image"
-        />
-        <div className="absolute top-0 left-0 right-0 w-full h-full bg-black opacity-30 z-40" />
+        /> */}
+        <div className="absolute top-0 left-0 right-0 w-full h-full bg-black opacity-50 z-40" />
         {/* header section  */}
         <div className="absolute top-0 left-0 right-0 w-full h-full z-50">
           {/* navbar  */}
@@ -44,11 +55,14 @@ const SamplePage = () => {
           </div> */}
 
           <div className="max-w-2xl mx-auto text-center mt-[350px]">
-            <p className="text-5xl font-extralight font-tanker uppercase">
+            <h1 className="text-5xl font-extralight font-tanker uppercase max-w-sm lg:max-w-md mx-auto text-[#cbedca]">
+              You are cordially invited to the wedding of
+            </h1>
+            <p className="text-5xl font-extralight font-tanker uppercase mt-8">
               ZAC & MEL
             </p>
-            <p className="text-md text-gray-400 font-tanker font-light uppercase mt-8">
-              AUGUST 1, 2024
+            <p className="text-md lg:text-lg text-[#cbedca] font-tanker font-light uppercase mt-8">
+              AUGUST 1, 2024 <span className="mx-2">| </span> East Legon Accra
             </p>
             <div className="mt-8">
               <Button className="bg-[#cda26f] font-semibold ">
@@ -61,7 +75,7 @@ const SamplePage = () => {
 
       {/* body section */}
 
-      <div className="w-full bg-[#fcfcfc] py-20 px-4">
+      <div className="w-full bg-[#fffaf2] py-20 px-4">
         <div className="max-w-6xl mx-auto flex flex-col-reverse lg:flex-row lg:space-x-24  py-8 ">
           <div className="w-full h-[450px] lg:flex-1 lg:h-[800px] relative border border-white rounded-2xl">
             <Image
@@ -127,7 +141,7 @@ const SamplePage = () => {
               </div>
               <div className="space-y-8 text-[#222] font-bitter">
                 <p>The Popham Family&apos;s Property near Fairplay, Colorado</p>
-                <p>
+                <p className="font-bitterBold">
                   2900 Highway 285 <br />
                   Fairplay, CO 80465
                 </p>
@@ -135,6 +149,14 @@ const SamplePage = () => {
                   The property is located approximately 20 minutes from downtown
                   Denver. Parking is limited and shuttle will be provided.Please
                   read more details below
+                </p>
+                <p>
+                  *Given the open nature of the property and the minimal
+                  guardrails to wilderness, we'd kindly ask that children less
+                  than 13 stay at home. That being said, our biggest priority is
+                  to have our loved ones—you—come celebrate with us. If you
+                  think childcare might preclude you from attending, don't
+                  hesitate to reach out to us, and we'll find a solution.
                 </p>
               </div>
             </div>
