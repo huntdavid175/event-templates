@@ -66,7 +66,7 @@ const SamplePage = () => {
               You are cordially invited to the wedding of
             </h1>
             <p className="text-5xl font-extralight font-tanker uppercase mt-8">
-              ZAC & MEL
+              Jeffery & MEL
             </p>
             <p className="text-md lg:text-lg text-[#cbedca] font-tanker font-light uppercase mt-8">
               AUGUST 1, 2024 <span className="mx-2">| </span> East Legon, Accra
@@ -87,7 +87,7 @@ const SamplePage = () => {
           <div className="w-full h-[450px] lg:flex-1 lg:h-[800px] relative border border-white rounded-2xl">
             <Image
               src={
-                "https://uploads-ssl.webflow.com/62e945e61af79e625a6940f0/634453bc81acc8f4396b1c3f_zachmel2.jpg"
+                "https://images.unsplash.com/photo-1664646449679-3c3fe6cc4fe8?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               }
               fill
               className="object-cover rounded-2xl "
@@ -219,12 +219,12 @@ const SamplePage = () => {
             <div className="flex flex-col lg:flex-row gap-y-16 lg:gap-y-0 lg:justify-between lg:gap-x-8 mt-16">
               <div className="flex flex-col items-center flex-1 justify-center space-y-3">
                 <p className="text-2xl lg:text-5xl text-green-900 font-bold font-tanker">
-                  Zana
+                  Jeffery
                 </p>
                 <div className="flex space-x-3 items-center">
                   <Mail className="text-[#093308]" />
                   <p className="text-base lg:text-xl text-[#8c3d20] font-semibold font-bitter underline">
-                    zana.pavlovic92@gmail.com
+                    ylee20@gmail.com
                   </p>
                 </div>
                 <div className="flex space-x-3 items-center">
@@ -274,7 +274,7 @@ const SamplePage = () => {
                 <div className="w-full h-[500px] relative">
                   <Image
                     src={
-                      "https://uploads-ssl.webflow.com/62e945e61af79e625a6940f0/634453bc81acc8f4396b1c3f_zachmel2.jpg"
+                      "https://images.unsplash.com/photo-1664646449686-6a9207a10866?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     }
                     fill
                     className="object-cover"
