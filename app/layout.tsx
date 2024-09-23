@@ -31,11 +31,11 @@ const bitterBold = localFont({
   weight: "100 900",
 });
 
-const gourmet = localFont({
-  src: "./fonts/GourmetLeFrenchScript.otf",
-  variable: "--font-gourmetScript",
-  weight: "100 900",
-});
+// const gourmet = localFont({
+//   src: "./fonts/GourmetLeFrenchScript.otf",
+//   variable: "--font-gourmetScript",
+//   weight: "100 900",
+// });
 
 const dancingScriptBold = localFont({
   src: "./fonts/DancingScript-Bold.otf",
