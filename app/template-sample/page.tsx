@@ -152,11 +152,12 @@ const SamplePage = () => {
                 </p>
                 <p>
                   *Given the open nature of the property and the minimal
-                  guardrails to wilderness, we'd kindly ask that children less
-                  than 13 stay at home. That being said, our biggest priority is
-                  to have our loved ones—you—come celebrate with us. If you
-                  think childcare might preclude you from attending, don't
-                  hesitate to reach out to us, and we'll find a solution.
+                  guardrails to wilderness, we&apos;d kindly ask that children
+                  less than 13 stay at home. That being said, our biggest
+                  priority is to have our loved ones—you—come celebrate with us.
+                  If you think childcare might preclude you from attending,
+                  don&apos;t hesitate to reach out to us, and we&apos;ll find a
+                  solution.
                 </p>
               </div>
             </div>
