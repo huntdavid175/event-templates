@@ -31,11 +31,11 @@ const bitterBold = localFont({
   weight: "100 900",
 });
 
-// const gourmet = localFont({
-//   src: "./fonts/GourmetLeFrenchScript.otf",
-//   variable: "--font-gourmetScript",
-//   weight: "100 900",
-// });
+const greatVibes = localFont({
+  src: "./fonts/GreatVibes-Regular.ttf",
+  variable: "--font-greatVibes",
+  weight: "100 900",
+});
 
 const dancingScriptBold = localFont({
   src: "./fonts/DancingScript-Bold.otf",
@@ -56,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${tanker.variable} ${bitter.variable} ${bitterBold.variable} ${dancingScriptBold.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${tanker.variable} ${bitter.variable} ${greatVibes.variable} ${bitterBold.variable} ${dancingScriptBold.variable} antialiased`}
       >
         {children}
       </body>

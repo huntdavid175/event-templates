@@ -13,8 +13,8 @@ const config: Config = {
         tanker: ["var(--font-tanker)"],
         bitter: ["var(--font-bitter)"],
         bitterBold: ["var(--font-bitter-bold)"],
-        gourmetScript: ["var(--font-gourmetScript)"],
         dancingBold: ["var(--font-dancingBold)"],
+        greatVibes: ["var(--font-greatVibes)"],
       },
       colors: {
         background: "hsl(var(--background))",

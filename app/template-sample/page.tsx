@@ -8,8 +8,9 @@ import {
 } from "@/components/ui/carousel";
 import { Mail, Phone } from "lucide-react";
 
+import * as motion from "framer-motion/client";
+
 import Image from "next/image";
-import React from "react";
 
 const SamplePage = () => {
   return (
@@ -70,20 +71,44 @@ const SamplePage = () => {
           </div> */}
 
           <div className="max-w-2xl mx-auto text-center mt-[350px]">
-            <h1 className="text-5xl font-extralight font-tanker uppercase max-w-sm lg:max-w-md mx-auto text-[#cbedca]">
+            <motion.h1
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="text-5xl font-extralight font-tanker uppercase max-w-sm lg:max-w-md mx-auto text-[#cbedca]"
+            >
               You are cordially invited to the wedding of
-            </h1>
-            <p className="text-5xl font-semibold font-dancingBold uppercase mt-8">
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              className="text-5xl font-semibold font-dancingBold uppercase mt-8"
+            >
               Jeffery & MEL
-            </p>
-            <p className="text-md lg:text-lg text-[#cbedca] font-tanker font-light uppercase mt-8">
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.7 }}
+              className="text-md lg:text-lg text-[#cbedca] font-tanker font-light uppercase mt-8"
+            >
               AUGUST 1, 2024 <span className="mx-2">| </span> East Legon, Accra
-            </p>
-            <div className="mt-8">
+            </motion.p>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.8 }}
+              className="mt-8"
+            >
               <Button className="bg-[#cda26f] font-semibold ">
                 <p>RSVP NOW BY AUGUST 1</p>
               </Button>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
@@ -104,7 +129,13 @@ const SamplePage = () => {
           </div>
           <div className="w-full flex-1">
             {/* When section */}
-            <div className="mb-12">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              className="mb-12 text-[#222]"
+            >
               <div className="flex flex-col gap-y-4 lg:gap-y-0 lg:flex-row lg:gap-x-8 mb-8">
                 <div className="w-[3.5rem] h-auto text-[#cda26f]">
                   <svg
@@ -131,10 +162,16 @@ const SamplePage = () => {
                   Please RSVP by June 24th!
                 </p>
               </div>
-            </div>
+            </motion.div>
 
             {/* Location section */}
-            <div className="mb-12 text-[#222]">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              className="mb-12 text-[#222]"
+            >
               <div className="flex flex-col gap-y-4 lg:flex-row lg:gap-y-0 lg: gap-x-8 mb-8">
                 <div className="w-[3.5rem] h-auto text-[#cda26f]">
                   <svg
@@ -175,10 +212,16 @@ const SamplePage = () => {
                   solution.
                 </p>
               </div>
-            </div>
+            </motion.div>
 
             {/* Schedule section */}
-            <div className="mb-12">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              className="mb-12"
+            >
               <div className="flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 lg:gap-x-8 mb-8">
                 <div className="w-[3.5rem] h-auto text-[#cda26f]">
                   <svg
@@ -210,21 +253,39 @@ const SamplePage = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
         {/* FAQs  */}
         <div className="w-full mt-12 mb-12">
           <div className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8">
-            <h3 className="text-3xl lg:text-5xl text-[#093308] text-center font-tanker font-bold mb-8">
+            <motion.h3
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              className="text-3xl lg:text-5xl text-[#093308] text-center font-tanker font-bold mb-8"
+            >
               Get In Touch!
-            </h3>
-            <p className="max-w-3xl mx-auto text-center text-lg text-[#222] font-bitter">
+            </motion.h3>
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              className="max-w-3xl mx-auto text-center text-lg text-[#222] font-bitter"
+            >
               If you have any questions, comments, or concerns (or just want to
               get in touch!), then please do not hesitate to reach out.
-            </p>
+            </motion.p>
 
-            <div className="flex flex-col lg:flex-row gap-y-16 lg:gap-y-0 lg:justify-between lg:gap-x-8 mt-16">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              className="flex flex-col lg:flex-row gap-y-16 lg:gap-y-0 lg:justify-between lg:gap-x-8 mt-16"
+            >
               <div className="flex flex-col items-center flex-1 justify-center space-y-3">
                 <p className="text-2xl lg:text-5xl text-green-900 font-bold font-tanker">
                   Jeffery
@@ -260,7 +321,7 @@ const SamplePage = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
