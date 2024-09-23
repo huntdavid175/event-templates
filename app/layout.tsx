@@ -31,6 +31,18 @@ const bitterBold = localFont({
   weight: "100 900",
 });
 
+const gourmet = localFont({
+  src: "./fonts/GourmetLeFrenchScript.otf",
+  variable: "--font-gourmetScript",
+  weight: "100 900",
+});
+
+const dancingScriptBold = localFont({
+  src: "./fonts/DancingScript-Bold.otf",
+  variable: "--font-dancingBold",
+  weight: "100 900",
+});
+
 export const metadata: Metadata = {
   title: "Wedding Event Templates",
   description: "customizable templates for your next big event",
@@ -44,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${tanker.variable} ${bitter.variable} ${bitterBold.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${tanker.variable} ${bitter.variable} ${bitterBold.variable} ${dancingScriptBold.variable} antialiased`}
       >
         {children}
       </body>

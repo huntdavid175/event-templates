@@ -25,6 +25,14 @@ const SamplePage = () => {
             src="https://videos.pexels.com/video-files/8776126/8776126-uhd_2560_1440_25fps.mp4"
             type="video/mp4"
           />
+          <Image
+            src={
+              "https://uploads-ssl.webflow.com/62e945e61af79e625a6940f0/634453bc81acc8f4396b1c3f_zachmel2.jpg"
+            }
+            fill
+            className="object-cover"
+            alt="image"
+          />
         </video>
         {/* <Image
           src={
@@ -65,7 +73,7 @@ const SamplePage = () => {
             <h1 className="text-5xl font-extralight font-tanker uppercase max-w-sm lg:max-w-md mx-auto text-[#cbedca]">
               You are cordially invited to the wedding of
             </h1>
-            <p className="text-5xl font-extralight font-tanker uppercase mt-8">
+            <p className="text-5xl font-semibold font-dancingBold uppercase mt-8">
               Jeffery & MEL
             </p>
             <p className="text-md lg:text-lg text-[#cbedca] font-tanker font-light uppercase mt-8">
