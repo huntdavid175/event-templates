@@ -136,7 +136,7 @@ const SamplePage = () => {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="mb-12 text-[#222]"
             >
-              <div className="flex flex-col gap-y-4 lg:gap-y-0 lg:flex-row lg:gap-x-8 mb-8">
+              <div className="flex flex-col gap-y-4 lg:gap-y-0 md:flex-row md:items-center md:gap-x-8 mb-8">
                 <div className="w-[3.5rem] h-auto text-[#cda26f]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -172,7 +172,7 @@ const SamplePage = () => {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="mb-12 text-[#222]"
             >
-              <div className="flex flex-col gap-y-4 lg:flex-row lg:gap-y-0 lg: gap-x-8 mb-8">
+              <div className="flex flex-col gap-y-4 md:flex-row md:items-center lg:gap-y-0 md:gap-x-8 mb-8">
                 <div className="w-[3.5rem] h-auto text-[#cda26f]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -222,7 +222,7 @@ const SamplePage = () => {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="mb-12"
             >
-              <div className="flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 lg:gap-x-8 mb-8">
+              <div className="flex flex-col  md:flex-row md:items-center gap-y-4 lg:gap-y-0 md:gap-x-8 mb-8">
                 <div className="w-[3.5rem] h-auto text-[#cda26f]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
