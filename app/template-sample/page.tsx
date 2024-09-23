@@ -1,4 +1,11 @@
 import { Button } from "@/components/ui/button";
+import {
+  Carousel,
+  CarouselItem,
+  CarouselContent,
+  CarouselPrevious,
+  CarouselNext,
+} from "@/components/ui/carousel";
 import { Mail, Phone } from "lucide-react";
 
 import Image from "next/image";
@@ -62,7 +69,7 @@ const SamplePage = () => {
               ZAC & MEL
             </p>
             <p className="text-md lg:text-lg text-[#cbedca] font-tanker font-light uppercase mt-8">
-              AUGUST 1, 2024 <span className="mx-2">| </span> East Legon Accra
+              AUGUST 1, 2024 <span className="mx-2">| </span> East Legon, Accra
             </p>
             <div className="mt-8">
               <Button className="bg-[#cda26f] font-semibold ">
@@ -248,6 +255,38 @@ const SamplePage = () => {
             </div>
           </div>
         </div>
+      </div>
+      {/* bottom div  */}
+
+      {/* carousel */}
+
+      <div className="w-full">
+        <Carousel
+          opts={{ align: "start", loop: true }}
+          className="w-full bg-[#fffaf2]"
+        >
+          <CarouselContent>
+            {Array.from({ length: 10 }).map((_, i) => (
+              <CarouselItem
+                key={i}
+                className="w-full md:basis-1/2 lg:basis-1/3 "
+              >
+                <div className="w-full h-[500px] relative">
+                  <Image
+                    src={
+                      "https://uploads-ssl.webflow.com/62e945e61af79e625a6940f0/634453bc81acc8f4396b1c3f_zachmel2.jpg"
+                    }
+                    fill
+                    className="object-cover"
+                    alt="image"
+                  />
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2 z-50" />
+          <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2 z-50" />
+        </Carousel>
       </div>
     </div>
   );
