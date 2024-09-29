@@ -274,8 +274,8 @@ const SamplePage = () => {
         </div>
 
         {/* order of service section */}
-        <div className="w-full mt-12 mb-20">
-          <div className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full mt-12 mb-32">
+          <div className="max-w-9xl  mx-auto px-4 sm:px-6 lg:px-8">
             <motion.h3
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -285,79 +285,117 @@ const SamplePage = () => {
             >
               Order of Service
             </motion.h3>
-
-            <motion.ul
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.5 }}
-              className="max-w-3xl mx-auto text-center space-y-10"
-            >
-              <li>
-                <p className="text-lg text-[#222] font-bold font-bitterBold">
-                  Entrance of the bride
-                </p>
-                <div>
-                  <p className="text-sm text-[#222] font-bitter font-light">
-                    Music - Swan Lake by John Cena
+            <div className="flex">
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.5 }}
+                className="hidden lg:block"
+              >
+                <Image
+                  src={
+                    "https://static.wixstatic.com/media/47a772_52358ab57d094640b42c1be4b752a3ea~mv2.png/v1/fill/w_1200,h_1388,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/black-peony-decorative-01.png"
+                  }
+                  alt="image"
+                  height={300}
+                  width={394}
+                  objectFit="cover"
+                  objectPosition="50% 50%"
+                />
+              </motion.div>
+              <motion.ul
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.5 }}
+                className=" mx-auto text-center space-y-10"
+              >
+                <li>
+                  <p className="text-lg text-[#222] font-bold font-bitterBold">
+                    Entrance of the bride
                   </p>
-                </div>
-              </li>
-              <li>
-                <p className="text-lg text-[#222] font-bold font-bitterBold">
-                  Welcome by the celebrant
-                </p>
-              </li>
-
-              <li>
-                <p className="text-lg text-[#222] font-bold font-bitterBold">
-                  The first reading: On Your Wedding Day
-                </p>
-                <div>
-                  <p className="text-sm text-[#222] font-bitter font-light">
-                    Read by Hannah Jones
+                  <div>
+                    <p className="text-sm text-[#222] font-bitter font-light">
+                      Music - Swan Lake by John Cena
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <p className="text-lg text-[#222] font-bold font-bitterBold">
+                    Welcome by the celebrant
                   </p>
-                </div>
-              </li>
+                </li>
 
-              <li>
-                <p className="text-lg text-[#222] font-bold font-bitterBold">
-                  Exchange of Marriage Vows and Rings
-                </p>
-              </li>
+                <li>
+                  <p className="text-lg text-[#222] font-bold font-bitterBold">
+                    The first reading: On Your Wedding Day
+                  </p>
+                  <div>
+                    <p className="text-sm text-[#222] font-bitter font-light">
+                      Read by Hannah Jones
+                    </p>
+                  </div>
+                </li>
 
-              <li>
-                <p className="text-lg text-[#222] font-bold font-bitterBold">
-                  The second reading: Carrie&apos;s Poem
-                </p>
-                <div>
-                  <p className="text-sm text-[#222] font-bitter font-light">
-                    Read by Barbara Lawton
+                <li>
+                  <p className="text-lg text-[#222] font-bold font-bitterBold">
+                    Exchange of Marriage Vows and Rings
                   </p>
-                </div>
-              </li>
+                </li>
 
-              <li>
-                <p className="text-lg text-[#222] font-bold font-bitterBold">
-                  Signing of the Register
-                </p>
-                <div>
-                  <p className="text-sm text-[#222] font-bitter font-light">
-                    Witnesses - Angela Spenser and Barbara Lawton
+                <li>
+                  <p className="text-lg text-[#222] font-bold font-bitterBold">
+                    The second reading: Carrie&apos;s Poem
                   </p>
-                </div>
-              </li>
-              <li>
-                <p className="text-lg text-[#222] font-bold font-bitterBold">
-                  Procession Mr & Mrs Whittaker
-                </p>
-                <div>
-                  <p className="text-sm text-[#222] font-bitter font-light">
-                    Music - Fields of Gold by Immanuel Philips
+                  <div>
+                    <p className="text-sm text-[#222] font-bitter font-light">
+                      Read by Barbara Lawton
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <p className="text-lg text-[#222] font-bold font-bitterBold">
+                    Signing of the Register
                   </p>
-                </div>
-              </li>
-            </motion.ul>
+                  <div>
+                    <p className="text-sm text-[#222] font-bitter font-light">
+                      Witnesses - Angela Spenser and Barbara Lawton
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <p className="text-lg text-[#222] font-bold font-bitterBold">
+                    Procession Mr & Mrs Whittaker
+                  </p>
+                  <div>
+                    <p className="text-sm text-[#222] font-bitter font-light">
+                      Music - Fields of Gold by Immanuel Philips
+                    </p>
+                  </div>
+                </li>
+              </motion.ul>
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.5 }}
+                className="hidden lg:block"
+              >
+                <Image
+                  src={
+                    "https://static.wixstatic.com/media/47a772_f7fc98c5d2194e0d96a795e58dcb2525~mv2.png/v1/fill/w_1052,h_832,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/black-peony-07_edited.png"
+                  }
+                  alt="image"
+                  height={300}
+                  width={394}
+                  objectPosition="50% 50%"
+                  objectFit="cover"
+                  className="rotate-[323.74deg]"
+                />
+              </motion.div>
+            </div>
           </div>
         </div>
 
