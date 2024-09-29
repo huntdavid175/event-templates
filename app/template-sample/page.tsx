@@ -21,6 +21,7 @@ const SamplePage = () => {
           autoPlay
           loop
           muted
+          controls={false}
           className="w-full absolute inset-0 object-cover h-full"
         >
           <source
@@ -271,6 +272,95 @@ const SamplePage = () => {
             </motion.div>
           </div>
         </div>
+
+        {/* order of service section */}
+        <div className="w-full mt-12 mb-20">
+          <div className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8">
+            <motion.h3
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              className="text-3xl lg:text-5xl text-[#093308] text-center font-tanker font-bold mb-8"
+            >
+              Order of Service
+            </motion.h3>
+
+            <motion.ul
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              className="max-w-3xl mx-auto text-center space-y-10"
+            >
+              <li>
+                <p className="text-lg text-[#222] font-bold font-bitterBold">
+                  Entrance of the bride
+                </p>
+                <div>
+                  <p className="text-sm text-[#222] font-bitter font-light">
+                    Music - Swan Lake by John Cena
+                  </p>
+                </div>
+              </li>
+              <li>
+                <p className="text-lg text-[#222] font-bold font-bitterBold">
+                  Welcome by the celebrant
+                </p>
+              </li>
+
+              <li>
+                <p className="text-lg text-[#222] font-bold font-bitterBold">
+                  The first reading: On Your Wedding Day
+                </p>
+                <div>
+                  <p className="text-sm text-[#222] font-bitter font-light">
+                    Read by Hannah Jones
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <p className="text-lg text-[#222] font-bold font-bitterBold">
+                  Exchange of Marriage Vows and Rings
+                </p>
+              </li>
+
+              <li>
+                <p className="text-lg text-[#222] font-bold font-bitterBold">
+                  The second reading: Carrie&apos;s Poem
+                </p>
+                <div>
+                  <p className="text-sm text-[#222] font-bitter font-light">
+                    Read by Barbara Lawton
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <p className="text-lg text-[#222] font-bold font-bitterBold">
+                  Signing of the Register
+                </p>
+                <div>
+                  <p className="text-sm text-[#222] font-bitter font-light">
+                    Witnesses - Angela Spenser and Barbara Lawton
+                  </p>
+                </div>
+              </li>
+              <li>
+                <p className="text-lg text-[#222] font-bold font-bitterBold">
+                  Procession Mr & Mrs Whittaker
+                </p>
+                <div>
+                  <p className="text-sm text-[#222] font-bitter font-light">
+                    Music - Fields of Gold by Immanuel Philips
+                  </p>
+                </div>
+              </li>
+            </motion.ul>
+          </div>
+        </div>
+
         {/* FAQs  */}
         <div className="w-full mt-12 mb-12">
           <div className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8">
