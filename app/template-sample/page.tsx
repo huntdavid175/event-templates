@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
   Carousel,
@@ -211,6 +212,20 @@ const SamplePage = () => {
                   don&apos;t hesitate to reach out to us, and we&apos;ll find a
                   solution.
                 </p>
+              </div>
+              <div className="w-full flex justify-center py-8">
+                <Button
+                  asChild
+                  variant={"outline"}
+                  className="py-8 px-12 border-2 rounded-none font-bitter cursor-pointer  lg:text-lg border-[#093308] hover:text-white hover:bg-[#093308]"
+                >
+                  <Link
+                    target="_blank"
+                    href="https://www.google.com/maps/dir//GPRR%2B786,+28th+St,+Accra/@5.5406486,-0.3416288,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0xfdf970a9d831c1b:0xdf1d703527d3a793!2m2!1d-0.2592178!2d5.5406546?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D"
+                  >
+                    Get Direction
+                  </Link>
+                </Button>
               </div>
             </motion.div>
 
